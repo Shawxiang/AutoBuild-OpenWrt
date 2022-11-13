@@ -21,6 +21,9 @@ on:
   
   #watch:
   #  types: [started]
+  
+  workflow_dispatch:
+
 
 jobs:
   build:
