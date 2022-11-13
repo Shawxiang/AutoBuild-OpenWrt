@@ -10,18 +10,18 @@ name: Build_Redmi_AC2100
 on: 
   release:
     types: [published]
-    
-    workflow_dispatch:
 
   #push:
   #  branches: 
   #    - master
 
-  #schedule:
-  #  - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 8 * * *
   
   #watch:
   #  types: [started]
+  
+  workflow_dispatch:
 
 jobs:
   build:
